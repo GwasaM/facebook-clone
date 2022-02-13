@@ -85,7 +85,7 @@ function ImageUpload({username}) {
                                 />
                                 <Button type = "submit" onClick = {handleUpload} className = "imageUpload__submitButton">Post</Button>
                             </div>
-                            <h3>News Feed</h3>
+                            <h3>All News Feed</h3>
                             <br />
                             <h2 className = {`imageText ${image && `show`}`}> Image is added and will be displayed after clicking the post button </h2>
 
