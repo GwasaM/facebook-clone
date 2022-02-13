@@ -1,0 +1,40 @@
+.login {
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 30%;
+    height: 100vh;
+    margin-left: 35%;
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+
+.fb__icon {
+    margin-bottom: 80px;
+    height: 80px;
+    width: 80px;
+    color:blue;
+}
+
+.fb__btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    outline: 0;
+}
+
+.fb__btn:hover {
+    background-color: rgb(67, 95, 104);
+    color: blue;
+}
+
+.login__btn{
+    margin-top: 20px;
+}

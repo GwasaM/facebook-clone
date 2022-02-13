@@ -1,0 +1,17 @@
+.siderow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: green
+}
+
+.siderow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.siderow > h4{
+    font-weight: 600;
+    margin-left: 20px;
+}
